@@ -1,5 +1,6 @@
 package com.korit.springboot_study.entity.study;
 
+import com.korit.springboot_study.entity.Role;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -13,4 +14,6 @@ public class UserRole {
     private int userRoleId;
     private int userId;
     private int roleId;
+
+    private Role role;
 }

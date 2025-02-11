@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class configA {
+public class ConfigA {
 
     @Bean(value = "aaa")
     public ClassD call() {
